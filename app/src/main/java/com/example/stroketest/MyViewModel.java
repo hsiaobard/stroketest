@@ -9,7 +9,7 @@ public class MyViewModel extends ViewModel {
     //用來儲存症狀編號的集合
     public  MutableLiveData<ArrayList<String>> selectedSymptoms = new MutableLiveData<>(new ArrayList<>());
     public  MutableLiveData<ArrayList<String>> selectedSymptomsText = new MutableLiveData<>(new ArrayList<>());
-
+    public  int test = 1;
 
     //每個症狀按鈕要創建一個變數,代表是否被選取(ON/OFF)
     public MutableLiveData<Boolean> pulse0 = new MutableLiveData<>(true);
