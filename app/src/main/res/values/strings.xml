@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">中風中醫行動通</string>
+    <string name="strokeTitle">中風症狀</string>
+    <string name="pulseText">脈搏</string>
+    <string name="pulseToggleButtonNormal">正常</string>
+    <string name="pulseToggleButtonTextNormal">0</string>
+    <string name="pulseToggleButtonTight">脈搏緊</string>
+    <string name="pulseToggleButtonTextTight">123</string>
+    <string name="submitButtonText">送出</string>
+    <string name="resultText">結果</string>
+    <string name="pulseToggleButtonTextWeak">456</string>
+    <string name="pulseToggleButtonWeak">脈搏弱</string>
+    <string name="mouseText">口</string>
+    <string name="mouseToggleButtonNormal">正常</string>
+    <string name="mouseToggleButtonTextNormal">0</string>
+    <string name="mouseToggleButtonTextThirsty">789</string>
+    <string name="mouseToggleButtonThirsty">口乾</string>
+    <string name="mouseToggleButtonTextBitter">81</string>
+    <string name="mouseToggleButtonBitter">口苦</string>
+    <string name="UpperLimbText">上肢</string>
+    <string name="UpperLimbToggleButtonNormal">正常</string>
+    <string name="UpperLimbToggleButtonTextNormal">0</string>
+    <string name="UpperLimbToggleButtonTextPowerless">1289</string>
+    <string name="UpperLimbToggleButtonPowerless">上肢無力</string>
+    <string name="UpperLimbToggleButtonTextAche">1291</string>
+    <string name="UpperLimbToggleButtonAche">上肢痛</string>
+    <string name="selectedSymptomText">已選擇症狀</string>
+</resources>
