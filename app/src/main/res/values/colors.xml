@@ -4,4 +4,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="ToggleButtonOFF">#00BCD4</color>
     <color name="ToggleButtonON">#FF9800</color>
+    <color name="SyndromesButtonColor1">#F4B250</color>
+    <color name="SyndromesButtonColor2">#57DC64</color>
 </resources>
