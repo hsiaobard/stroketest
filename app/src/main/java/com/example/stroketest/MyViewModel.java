@@ -16,13 +16,24 @@ public class MyViewModel extends ViewModel {
     public MutableLiveData<Boolean> pulse123 = new MutableLiveData<>(false);
     public MutableLiveData<Boolean> pulse456 = new MutableLiveData<>(false);
 
-    public MutableLiveData<Boolean> mouse0 = new MutableLiveData<>(true);
-    public MutableLiveData<Boolean> mouse789 = new MutableLiveData<>(false);
-    public MutableLiveData<Boolean> mouse81 = new MutableLiveData<>(false);
-
-    public MutableLiveData<Boolean> upperlimb0 = new MutableLiveData<>(true);
-    public MutableLiveData<Boolean> upperlimb1289 = new MutableLiveData<>(false);
-    public MutableLiveData<Boolean> upperlimb1291 = new MutableLiveData<>(false);
+    public MutableLiveData<Boolean> tongue0 = new MutableLiveData<>(true);
+    public MutableLiveData<Boolean> tongue1024 = new MutableLiveData<>(false);
+    public MutableLiveData<Boolean> tongue1170 = new MutableLiveData<>(false);
+    public MutableLiveData<Boolean> tongue826 = new MutableLiveData<>(false);
+    public MutableLiveData<Boolean> tongue823 = new MutableLiveData<>(false);
+    public MutableLiveData<Boolean> tongue832 = new MutableLiveData<>(false);
+    public MutableLiveData<Boolean> tongue848 = new MutableLiveData<>(false);
+    public MutableLiveData<Boolean> tongue827 = new MutableLiveData<>(false);
+    public MutableLiveData<Boolean> tongue831 = new MutableLiveData<>(false);
+    public MutableLiveData<Boolean> tongue838 = new MutableLiveData<>(false);
+    public MutableLiveData<Boolean> tongue825 = new MutableLiveData<>(false);
+    public MutableLiveData<Boolean> tongue1042 = new MutableLiveData<>(false);
+    public MutableLiveData<Boolean> tongue1011 = new MutableLiveData<>(false);
+    public MutableLiveData<Boolean> tongue829 = new MutableLiveData<>(false);
+    public MutableLiveData<Boolean> tongue846 = new MutableLiveData<>(false);
+    public MutableLiveData<Boolean> tongue842 = new MutableLiveData<>(false);
+    public MutableLiveData<Boolean> tongue1016 = new MutableLiveData<>(false);
+    public MutableLiveData<Boolean> tongue824 = new MutableLiveData<>(false);
 
     public void toggle(MutableLiveData<Boolean> symptom, String symptomNumber, String symptomText){ //symptom->症狀是否被選取的變數， symptomNumber->症狀的編號(存在按鈕的text值)
         symptom.setValue(!symptom.getValue());
