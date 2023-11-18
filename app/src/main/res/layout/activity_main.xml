@@ -53,39 +53,124 @@
                 app:layout_constraintGuide_begin="130dp" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
-                android:text="@string/pulseText"
+                android:layout_marginTop="32dp"
+                android:text="@string/tongueText"
                 android:textSize="@dimen/symptomsTextSize"
                 app:layout_constraintStart_toStartOf="@+id/guideline"
                 app:layout_constraintTop_toBottomOf="@+id/textView" />
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/textView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
-                android:text="@string/tongueText"
+                android:text="@string/pulseText"
                 android:textSize="@dimen/symptomsTextSize"
                 app:layout_constraintStart_toStartOf="@+id/guideline"
-                app:layout_constraintTop_toBottomOf="@+id/toggleButton" />
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton22" />
 
-            <ToggleButton
-                android:id="@+id/toggleButton"
+            <TextView
+                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@{data.pulse0 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
-                android:minWidth="48dip"
-                android:minHeight="48dip"
-                android:onCheckedChanged="@{()->data.toggle(data.pulse0, @string/pulseToggleButtonTextNormal, @string/pulseToggleButtonNormal)}"
-                android:padding="0dp"
-                android:text="@string/pulseToggleButtonTextNormal"
-                android:textOff="@string/pulseToggleButtonNormal"
-                android:textOn="@string/pulseToggleButtonNormal"
+                android:layout_marginTop="24dp"
+                android:text="@string/limbText"
+                android:textSize="@dimen/symptomsTextSize"
                 app:layout_constraintStart_toStartOf="@+id/guideline"
-                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton29" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/facialText"
+                android:textSize="@dimen/symptomsTextSize"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton41" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/eyeText"
+                android:textSize="@dimen/symptomsTextSize"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton47" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/emotionalText"
+                android:textSize="@dimen/symptomsTextSize"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton55" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/sleepText"
+                android:textSize="@dimen/symptomsTextSize"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton61" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/bowelText"
+                android:textSize="@dimen/symptomsTextSize"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton63" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/digestText"
+                android:textSize="@dimen/symptomsTextSize"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton70" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/sweatText"
+                android:textSize="@dimen/symptomsTextSize"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton76" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/breathText"
+                android:textSize="@dimen/symptomsTextSize"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton82" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/otherText"
+                android:textSize="@dimen/symptomsTextSize"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton88" />
 
             <ToggleButton
                 android:id="@+id/toggleButton4"
@@ -103,19 +188,1055 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
             <ToggleButton
+                android:id="@+id/toggleButton23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.pulse0 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.pulse0, @string/pulseToggleButtonTextNormal, @string/pulseToggleButtonNormal)}"
+                android:padding="5dp"
+                android:text="@string/pulseToggleButtonTextNormal"
+                android:textOff="@string/pulseToggleButtonNormal"
+                android:textOn="@string/pulseToggleButtonNormal"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.limb0 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.limb0, @string/limbToggleButtonTextNormal, @string/limbToggleButtonNormal)}"
+                android:padding="5dp"
+                android:text="@string/limbToggleButtonTextNormal"
+                android:textOff="@string/limbToggleButtonNormal"
+                android:textOn="@string/limbToggleButtonNormal"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.facial0 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.facial0, @string/facialToggleButtonTextNormal, @string/facialToggleButtonNormal)}"
+                android:padding="5dp"
+                android:text="@string/facialToggleButtonTextNormal"
+                android:textOff="@string/facialToggleButtonNormal"
+                android:textOn="@string/facialToggleButtonNormal"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.eye0 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.eye0, @string/eyeToggleButtonTextNormal, @string/eyeToggleButtonNormal)}"
+                android:padding="5dp"
+                android:text="@string/eyeToggleButtonTextNormal"
+                android:textOff="@string/eyeToggleButtonNormal"
+                android:textOn="@string/eyeToggleButtonNormal"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton57"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.emotional0 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.emotional0, @string/emotionalToggleButtonTextNormal, @string/emotionalToggleButtonNormal)}"
+                android:padding="5dp"
+                android:text="@string/emotionalToggleButtonTextNormal"
+                android:textOff="@string/emotionalToggleButtonNormal"
+                android:textOn="@string/emotionalToggleButtonNormal"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton63"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:backgroundTint="@{data.sleep0 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.sleep0, @string/sleepToggleButtonTextNormal, @string/sleepToggleButtonNormal)}"
+                android:padding="5dp"
+                android:text="@string/sleepToggleButtonTextNormal"
+                android:textOff="@string/sleepToggleButtonNormal"
+                android:textOn="@string/sleepToggleButtonNormal"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton67"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.bowel0 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.bowel0, @string/bowelToggleButtonTextNormal, @string/bowelToggleButtonNormal)}"
+                android:padding="5dp"
+                android:text="@string/digestToggleButtonTextNormal"
+                android:textOff="@string/digestToggleButtonNormal"
+                android:textOn="@string/digestToggleButtonNormal"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton72"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.digest0 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.digest0, @string/bowelToggleButtonTextNormal, @string/bowelToggleButtonNormal)}"
+                android:padding="5dp"
+                android:text="@string/bowelToggleButtonTextNormal"
+                android:textOff="@string/bowelToggleButtonNormal"
+                android:textOn="@string/bowelToggleButtonNormal"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton79"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.sweat0 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.sweat0, @string/sweatToggleButtonTextNormal, @string/sweatToggleButtonNormal)}"
+                android:padding="5dp"
+                android:text="@string/sweatToggleButtonTextNormal"
+                android:textOff="@string/sweatToggleButtonNormal"
+                android:textOn="@string/sweatToggleButtonNormal"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton88"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.breath0 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.breath0, @string/breathToggleButtonTextNormal, @string/breathToggleButtonNormal)}"
+                android:padding="5dp"
+                android:text="@string/breathToggleButtonTextNormal"
+                android:textOff="@string/breathToggleButtonNormal"
+                android:textOn="@string/breathToggleButtonNormal"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton89"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.other511 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.other511, @string/otherToggleButtonText511, @string/otherToggleButton511)}"
+                android:padding="5dp"
+                android:text="@string/otherToggleButtonText511"
+                android:textOff="@string/otherToggleButton511"
+                android:textOn="@string/otherToggleButton511"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton90"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.other890 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.other890, @string/otherToggleButtonText890, @string/otherToggleButtonText890)}"
+                android:padding="5dp"
+                android:text="@string/otherToggleButtonText890"
+                android:textOff="@string/otherToggleButton890"
+                android:textOn="@string/otherToggleButton890"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton89"
+                app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton91"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.other463 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.other463, @string/otherToggleButtonText463, @string/otherToggleButton463)}"
+                android:padding="5dp"
+                android:text="@string/otherToggleButtonText463"
+                android:textOff="@string/otherToggleButton463"
+                android:textOn="@string/otherToggleButton463"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton90"
+                app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton86"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.breath279 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.breath279, @string/breathToggleButtonText279, @string/breathToggleButton279)}"
+                android:padding="5dp"
+                android:text="@string/breathToggleButtonText279"
+                android:textOff="@string/breathToggleButton279"
+                android:textOn="@string/breathToggleButton279"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton88"
+                app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton87"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.breath277 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.breath277, @string/breathToggleButtonText277, @string/breathToggleButton277)}"
+                android:padding="5dp"
+                android:text="@string/breathToggleButtonText277"
+                android:textOff="@string/breathToggleButton277"
+                android:textOn="@string/breathToggleButton277"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton86"
+                app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton83"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.sweat432 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.sweat432, @string/sweatToggleButtonText432, @string/sweatToggleButton432)}"
+                android:padding="5dp"
+                android:text="@string/sweatToggleButtonText432"
+                android:textOff="@string/sweatToggleButton432"
+                android:textOn="@string/sweatToggleButton432"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton84"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton79" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton80"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.sweat161 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.sweat161, @string/sweatToggleButtonText161, @string/sweatToggleButton161)}"
+                android:padding="5dp"
+                android:text="@string/sweatToggleButtonText161"
+                android:textOff="@string/sweatToggleButton161"
+                android:textOn="@string/sweatToggleButton161"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton79"
+                app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton81"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.sweat386 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.sweat386, @string/sweatToggleButtonText386, @string/sweatToggleButton386)}"
+                android:padding="5dp"
+                android:text="@string/sweatToggleButtonText386"
+                android:textOff="@string/sweatToggleButton386"
+                android:textOn="@string/sweatToggleButton386"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton80"
+                app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton82"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.sweat160 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.sweat160, @string/sweatToggleButtonText160, @string/sweatToggleButton160)}"
+                android:padding="5dp"
+                android:text="@string/sweatToggleButtonText160"
+                android:textOff="@string/sweatToggleButton160"
+                android:textOn="@string/sweatToggleButton160"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton79" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton84"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.sweat365 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.sweat365, @string/sweatToggleButtonText365, @string/sweatToggleButton365)}"
+                android:padding="5dp"
+                android:text="@string/sweatToggleButtonText365"
+                android:textOff="@string/sweatToggleButton365"
+                android:textOn="@string/sweatToggleButton365"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton82"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton79" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton76"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.digest81 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.digest81, @string/digestToggleButtonText81, @string/digestToggleButton81)}"
+                android:padding="5dp"
+                android:text="@string/digestToggleButtonText81"
+                android:textOff="@string/digestToggleButton81"
+                android:textOn="@string/digestToggleButton81"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton72" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton77"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.digest80 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.digest80, @string/digestToggleButtonText80, @string/digestToggleButton80)}"
+                android:padding="5dp"
+                android:text="@string/digestToggleButtonText80"
+                android:textOff="@string/digestToggleButton80"
+                android:textOn="@string/digestToggleButton80"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton76"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton72" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton78"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.digest402 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.digest402, @string/digestToggleButtonText402, @string/digestToggleButton402)}"
+                android:padding="5dp"
+                android:text="@string/digestToggleButtonText402"
+                android:textOff="@string/digestToggleButton402"
+                android:textOn="@string/digestToggleButton402"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton77"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton72" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton73"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.digest70 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.digest70, @string/digestToggleButtonText70, @string/digestToggleButton70)}"
+                android:padding="5dp"
+                android:text="@string/digestToggleButtonText70"
+                android:textOff="@string/digestToggleButton70"
+                android:textOn="@string/digestToggleButton70"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton72"
+                app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton74"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.digest299 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.digest299, @string/digestToggleButtonText299, @string/digestToggleButton299)}"
+                android:padding="5dp"
+                android:text="@string/digestToggleButtonText299"
+                android:textOff="@string/digestToggleButton299"
+                android:textOn="@string/digestToggleButton299"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton73"
+                app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton75"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.digest425 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.digest425, @string/digestToggleButtonText425, @string/digestToggleButton425)}"
+                android:padding="5dp"
+                android:text="@string/digestToggleButtonText425"
+                android:textOff="@string/digestToggleButton425"
+                android:textOn="@string/digestToggleButton425"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton74"
+                app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton70"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.bowel31 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.bowel31, @string/bowelToggleButtonText31, @string/bowelToggleButton31)}"
+                android:padding="5dp"
+                android:text="@string/bowelToggleButtonText31"
+                android:textOff="@string/bowelToggleButton31"
+                android:textOn="@string/bowelToggleButton31"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton67" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton71"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.bowel5 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.bowel5, @string/bowelToggleButtonText5, @string/bowelToggleButton5)}"
+                android:padding="5dp"
+                android:text="@string/bowelToggleButtonText5"
+                android:textOff="@string/bowelToggleButton5"
+                android:textOn="@string/bowelToggleButton5"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton70"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton67" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton68"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.bowel54 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.bowel54, @string/bowelToggleButtonText54, @string/bowelToggleButton54)}"
+                android:padding="5dp"
+                android:text="@string/bowelToggleButtonText54"
+                android:textOff="@string/bowelToggleButton54"
+                android:textOn="@string/bowelToggleButton54"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton67"
+                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton69"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.bowel32 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.bowel32, @string/bowelToggleButtonText32, @string/bowelToggleButton32)}"
+                android:padding="5dp"
+                android:text="@string/bowelToggleButtonText32"
+                android:textOff="@string/bowelToggleButton32"
+                android:textOn="@string/bowelToggleButton32"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton68"
+                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.sleep450 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.sleep450, @string/sleepToggleButtonText450, @string/sleepToggleButton450)}"
+                android:padding="5dp"
+                android:text="@string/sleepToggleButtonText450"
+                android:textOff="@string/sleepToggleButton450"
+                android:textOn="@string/sleepToggleButton450"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton63"
+                app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton65"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.sleep441? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.sleep441, @string/sleepToggleButtonText441, @string/sleepToggleButton441)}"
+                android:padding="5dp"
+                android:text="@string/sleepToggleButtonText441"
+                android:textOff="@string/sleepToggleButton441"
+                android:textOn="@string/sleepToggleButton441"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton64"
+                app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton66"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.sleep434 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.sleep434, @string/sleepToggleButtonText434, @string/sleepToggleButton434)}"
+                android:padding="5dp"
+                android:text="@string/sleepToggleButtonText434"
+                android:textOff="@string/sleepToggleButton434"
+                android:textOn="@string/sleepToggleButton434"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton65"
+                app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.emotional135 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.emotional135, @string/emotionalToggleButtonText135, @string/emotionalToggleButton135)}"
+                android:padding="5dp"
+                android:text="@string/emotionalToggleButtonText135"
+                android:textOff="@string/emotionalToggleButton135"
+                android:textOn="@string/emotionalToggleButton135"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton57" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.emotional148 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.emotional148, @string/emotionalToggleButtonText148, @string/emotionalToggleButton148)}"
+                android:padding="5dp"
+                android:text="@string/emotionalToggleButtonText148"
+                android:textOff="@string/emotionalToggleButton148"
+                android:textOn="@string/emotionalToggleButton148"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton57"
+                app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton59"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.emotional144 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.emotional144, @string/emotionalToggleButtonText144, @string/emotionalToggleButton144)}"
+                android:padding="5dp"
+                android:text="@string/emotionalToggleButtonText144"
+                android:textOff="@string/emotionalToggleButton144"
+                android:textOn="@string/emotionalToggleButton144"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton58"
+                app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.emotional130 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.emotional130, @string/emotionalToggleButtonText130, @string/emotionalToggleButton130)}"
+                android:padding="5dp"
+                android:text="@string/emotionalToggleButtonText130"
+                android:textOff="@string/emotionalToggleButton130"
+                android:textOn="@string/emotionalToggleButton130"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton59"
+                app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.eye320 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.eye320, @string/eyeToggleButtonText320, @string/eyeToggleButton320)}"
+                android:padding="5dp"
+                android:text="@string/eyeToggleButtonText320"
+                android:textOff="@string/eyeToggleButton320"
+                android:textOn="@string/eyeToggleButton320"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton51"
+                app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.eye619 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.eye619, @string/eyeToggleButtonText619, @string/eyeToggleButton619)}"
+                android:padding="5dp"
+                android:text="@string/eyeToggleButtonText619"
+                android:textOff="@string/eyeToggleButton619"
+                android:textOn="@string/eyeToggleButton619"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton52"
+                app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.eye618 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.eye618, @string/eyeToggleButtonText618, @string/eyeToggleButton618)}"
+                android:padding="5dp"
+                android:text="@string/eyeToggleButtonText618"
+                android:textOff="@string/eyeToggleButton618"
+                android:textOn="@string/eyeToggleButton618"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton53"
+                app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.eye1008 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.eye1008, @string/eyeToggleButtonText1008, @string/eyeToggleButton1008)}"
+                android:padding="5dp"
+                android:text="@string/eyeToggleButtonText1008"
+                android:textOff="@string/eyeToggleButton1008"
+                android:textOn="@string/eyeToggleButton1008"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton51" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.eye621 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.eye621, @string/eyeToggleButtonText621, @string/eyeToggleButton621)}"
+                android:padding="5dp"
+                android:text="@string/eyeToggleButtonText621"
+                android:textOff="@string/eyeToggleButton621"
+                android:textOn="@string/eyeToggleButton621"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton55"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton51" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.facial327 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.facial327, @string/facialToggleButtonText327, @string/facialToggleButton327)}"
+                android:padding="5dp"
+                android:text="@string/facialToggleButtonText327"
+                android:textOff="@string/facialToggleButton327"
+                android:textOn="@string/facialToggleButton327"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton42" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.facial330 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.facial330, @string/facialToggleButtonText330, @string/facialToggleButton330)}"
+                android:padding="5dp"
+                android:text="@string/facialToggleButtonText330"
+                android:textOff="@string/facialToggleButton330"
+                android:textOn="@string/facialToggleButton330"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton47"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton42" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.facial356 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.facial356, @string/facialToggleButtonText356, @string/facialToggleButton356)}"
+                android:padding="5dp"
+                android:text="@string/facialToggleButtonText356"
+                android:textOff="@string/facialToggleButton356"
+                android:textOn="@string/facialToggleButton356"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton48"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton42" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.facial272 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.facial272, @string/facialToggleButtonText272, @string/facialToggleButton272)}"
+                android:padding="5dp"
+                android:text="@string/facialToggleButtonText272"
+                android:textOff="@string/facialToggleButton272"
+                android:textOn="@string/facialToggleButton272"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton49"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton42" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.facial68 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.facial68, @string/facialToggleButtonText68, @string/facialToggleButton68)}"
+                android:padding="5dp"
+                android:text="@string/facialToggleButtonText68"
+                android:textOff="@string/facialToggleButton68"
+                android:textOn="@string/facialToggleButton68"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton42"
+                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.facial348 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.facial348, @string/facialToggleButtonText348, @string/facialToggleButton348)}"
+                android:padding="5dp"
+                android:text="@string/facialToggleButtonText348"
+                android:textOff="@string/facialToggleButton348"
+                android:textOn="@string/facialToggleButton348"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton43"
+                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.facial325 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.facial325, @string/facialToggleButtonText325, @string/facialToggleButton325)}"
+                android:padding="5dp"
+                android:text="@string/facialToggleButtonText325"
+                android:textOff="@string/facialToggleButton325"
+                android:textOn="@string/facialToggleButton325"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton44"
+                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.facial323 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.facial323, @string/facialToggleButtonText323, @string/facialToggleButton323)}"
+                android:padding="5dp"
+                android:text="@string/facialToggleButtonText323"
+                android:textOff="@string/facialToggleButton323"
+                android:textOn="@string/facialToggleButton323"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton45"
+                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.limb558 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.limb558, @string/limbToggleButtonText558, @string/limbToggleButton558)}"
+                android:padding="5dp"
+                android:text="@string/limbToggleButtonText558"
+                android:textOff="@string/limbToggleButton558"
+                android:textOn="@string/limbToggleButton558"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton32" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.limb557 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.limb557, @string/limbToggleButtonText557, @string/limbToggleButton557)}"
+                android:padding="5dp"
+                android:text="@string/limbToggleButtonText557"
+                android:textOff="@string/limbToggleButton557"
+                android:textOn="@string/limbToggleButton557"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton37" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.limb785 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.limb785, @string/limbToggleButtonText785, @string/limbToggleButton785)}"
+                android:padding="5dp"
+                android:text="@string/limbToggleButtonText785"
+                android:textOff="@string/limbToggleButton785"
+                android:textOn="@string/limbToggleButton785"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton37"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton32" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.limb975 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.limb975, @string/limbToggleButtonText975, @string/limbToggleButton975)}"
+                android:padding="5dp"
+                android:text="@string/limbToggleButtonText975"
+                android:textOff="@string/limbToggleButton975"
+                android:textOn="@string/limbToggleButton975"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton38"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton32" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.limb567 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.limb567, @string/limbToggleButtonText567, @string/limbToggleButton567)}"
+                android:padding="5dp"
+                android:text="@string/limbToggleButtonText567"
+                android:textOff="@string/limbToggleButton567"
+                android:textOn="@string/limbToggleButton567"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton39"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton32" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.limb202 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.limb202, @string/limbToggleButtonText202, @string/limbToggleButton202)}"
+                android:padding="5dp"
+                android:text="@string/limbToggleButtonText202"
+                android:textOff="@string/limbToggleButton202"
+                android:textOn="@string/limbToggleButton202"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton32"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.limb1274 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.limb1274, @string/limbToggleButtonText1274, @string/limbToggleButton1274)}"
+                android:padding="5dp"
+                android:text="@string/limbToggleButtonText1274"
+                android:textOff="@string/limbToggleButton1274"
+                android:textOn="@string/limbToggleButton1274"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton33"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.limb569 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.limb569, @string/limbToggleButtonText569, @string/limbToggleButton569)}"
+                android:padding="5dp"
+                android:text="@string/limbToggleButtonText569"
+                android:textOff="@string/limbToggleButton569"
+                android:textOn="@string/limbToggleButton569"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton34"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.limb563 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.limb563, @string/limbToggleButtonText563, @string/limbToggleButton563)}"
+                android:padding="5dp"
+                android:text="@string/limbToggleButtonText563"
+                android:textOff="@string/limbToggleButton563"
+                android:textOn="@string/limbToggleButton563"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton35"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.pulse798 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.pulse798, @string/pulseToggleButtonText798, @string/pulseToggleButton798)}"
+                android:padding="5dp"
+                android:text="@string/pulseToggleButtonText798"
+                android:textOff="@string/pulseToggleButton798"
+                android:textOn="@string/pulseToggleButton798"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton23" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.pulse801 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.pulse801, @string/pulseToggleButtonText801, @string/pulseToggleButton801)}"
+                android:padding="5dp"
+                android:text="@string/pulseToggleButtonText801"
+                android:textOff="@string/pulseToggleButton801"
+                android:textOn="@string/pulseToggleButton801"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton25" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.pulse813 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.pulse813, @string/pulseToggleButtonText813, @string/pulseToggleButton813)}"
+                android:padding="5dp"
+                android:text="@string/pulseToggleButtonText813"
+                android:textOff="@string/pulseToggleButton813"
+                android:textOn="@string/pulseToggleButton813"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton31"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton25" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.pulse810 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.pulse810, @string/pulseToggleButtonText810, @string/pulseToggleButton810)}"
+                android:padding="5dp"
+                android:text="@string/pulseToggleButtonText810"
+                android:textOff="@string/pulseToggleButton810"
+                android:textOn="@string/pulseToggleButton810"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton29"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton25" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.pulse795 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.pulse795, @string/pulseToggleButtonText795, @string/pulseToggleButton795)}"
+                android:padding="5dp"
+                android:text="@string/pulseToggleButtonText795"
+                android:textOff="@string/pulseToggleButton795"
+                android:textOn="@string/pulseToggleButton795"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton25"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton23" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.pulse807 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.pulse807, @string/pulseToggleButtonText807, @string/pulseToggleButton807)}"
+                android:padding="5dp"
+                android:text="@string/pulseToggleButtonText807"
+                android:textOff="@string/pulseToggleButton807"
+                android:textOn="@string/pulseToggleButton807"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton26"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton23" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.pulse804 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.pulse804, @string/pulseToggleButtonText804, @string/pulseToggleButton804)}"
+                android:padding="5dp"
+                android:text="@string/pulseToggleButtonText804"
+                android:textOff="@string/pulseToggleButton804"
+                android:textOn="@string/pulseToggleButton804"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton27"
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton23" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.pulse992 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.pulse992, @string/pulseToggleButtonText992, @string/pulseToggleButton992)}"
+                android:padding="5dp"
+                android:text="@string/pulseToggleButtonText992"
+                android:textOff="@string/pulseToggleButton992"
+                android:textOn="@string/pulseToggleButton992"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton23"
+                app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+            <ToggleButton
                 android:id="@+id/toggleButton2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@{data.pulse123 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:backgroundTint="@{data.pulse799 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
                 android:minWidth="48dip"
                 android:minHeight="48dip"
-                android:onCheckedChanged="@{()->data.toggle(data.pulse123, @string/pulseToggleButtonTextTight, @string/pulseToggleButtonTight)}"
+                android:onCheckedChanged="@{()->data.toggle(data.pulse799, @string/pulseToggleButtonText799, @string/pulseToggleButton799)}"
                 android:padding="5dp"
-                android:text="@string/pulseToggleButtonTextTight"
-                android:textOff="@string/pulseToggleButtonTight"
-                android:textOn="@string/pulseToggleButtonTight"
+                android:text="@string/pulseToggleButtonText799"
+                android:textOff="@string/pulseToggleButton799"
+                android:textOn="@string/pulseToggleButton799"
                 app:layout_constraintStart_toEndOf="@+id/toggleButton"
-                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+                app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.pulse809 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.pulse809, @string/pulseToggleButtonText809, @string/pulseToggleButton809)}"
+                android:padding="5dp"
+                android:text="@string/pulseToggleButtonText809"
+                android:textOff="@string/pulseToggleButton809"
+                android:textOn="@string/pulseToggleButton809"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton2"
+                app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@{data.pulse806 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
+                android:minWidth="48dip"
+                android:minHeight="48dip"
+                android:onCheckedChanged="@{()->data.toggle(data.pulse806, @string/pulseToggleButtonText806, @string/pulseToggleButton806)}"
+                android:padding="5dp"
+                android:text="@string/pulseToggleButtonText806"
+                android:textOff="@string/pulseToggleButton806"
+                android:textOn="@string/pulseToggleButton806"
+                app:layout_constraintStart_toEndOf="@+id/toggleButton3"
+                app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
             <ToggleButton
                 android:id="@+id/toggleButton5"
@@ -372,30 +1493,15 @@
                 app:layout_constraintStart_toEndOf="@+id/toggleButton8"
                 app:layout_constraintTop_toBottomOf="@+id/toggleButton4" />
 
-            <ToggleButton
-                android:id="@+id/toggleButton3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@{data.pulse456 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
-                android:minWidth="48dip"
-                android:minHeight="48dip"
-                android:onCheckedChanged="@{()->data.toggle(data.pulse456, @string/pulseToggleButtonTextWeak, @string/pulseToggleButtonWeak)}"
-                android:padding="5dp"
-                android:text="@string/pulseToggleButtonTextWeak"
-                android:textOff="@string/pulseToggleButtonWeak"
-                android:textOn="@string/pulseToggleButtonWeak"
-                app:layout_constraintStart_toEndOf="@+id/toggleButton2"
-                app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
             <Button
                 android:id="@+id/submitButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="460dp"
+                android:layout_marginTop="32dp"
                 android:text="@string/submitButtonText"
                 app:layout_constraintStart_toStartOf="@+id/guideline"
-                app:layout_constraintTop_toBottomOf="@+id/toggleButton" />
+                app:layout_constraintTop_toBottomOf="@+id/toggleButton89" />
 
             <TextView
                 android:id="@+id/resultText"
