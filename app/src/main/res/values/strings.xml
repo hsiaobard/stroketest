@@ -123,7 +123,7 @@
     <string name="facialToggleButtonText356">356</string>
     <string name="facialToggleButton272">耳鳴</string>
     <string name="facialToggleButtonText272">272</string>
-    <string name="facialText">頭部</string>
+    <string name="facialText">頭面</string>
     <string name="eyeToggleButtonNormal">正常</string>
     <string name="eyeToggleButtonTextNormal">0</string>
     <string name="eyeText">目</string>
@@ -196,7 +196,7 @@
     <string name="sweatToggleButtonText365">365</string>
     <string name="sweatToggleButton432">戰汗</string>
     <string name="sweatToggleButtonText432">432</string>
-    <string name="breathText">呼吸</string>
+    <string name="breathText">胸腹</string>
     <string name="breathToggleButton279">呼吸微弱</string>
     <string name="breathToggleButtonText279">279</string>
     <string name="breathToggleButton277">呼吸急促</string>
