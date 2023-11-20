@@ -31,11 +31,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
         binding.confirmButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, resultActivity.class);
-                intent.putExtra("resultNumber", "1");
+                Intent intent = new Intent(MainActivity.this, differentiator.class);
+                intent.putStringArrayListExtra("resultNumber", myViewModel.selectedSymptoms.getValue());
                 startActivity(intent);
             }
         });
