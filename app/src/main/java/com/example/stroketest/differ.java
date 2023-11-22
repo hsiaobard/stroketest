@@ -66,9 +66,18 @@ public class differ extends AppCompatActivity {
 			differentiator_output[i] = output.toString();
 			i++;
 		}
-		for (i = 0; i < differentiator_output.length; i++) {
-			resultTextView.setText(differentiator_output[i]);
-		}
+		
+	        StringBuilder output = new StringBuilder();
+			for (String string : differentiator_output) {
+			    output.append(string);
+			    output.append("\n");
+			}
+
+
+		// 將合併後的字串轉換為 String 物件
+		Text = output.toString();
+
+		resultTextView.setText(Text); // Syndrome_Name: A, Score: 0.95, Syndrome_Name: B, Score: 0.85, ...
         ///////////////////////////////////////////////////////////////////////
 
         Button button = findViewById(R.id.seebutton);
