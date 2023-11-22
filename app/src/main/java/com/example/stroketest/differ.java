@@ -54,13 +54,19 @@ public class differ extends AppCompatActivity {
             resultTextView.setText("1");
             result_list = stroke_differentiator.Differentiation_syndrome(symptomSet, 0.1);
         }
+        int i=0;
+		for (Map.Entry<String, Double> syndrome : result_list.entrySet()) {
+			// 使用 StringBuilder 將 score 和 syndrome name 組合成一個字串
+			StringBuilder output = new StringBuilder();
+			output.append(String.format("Syndrome_Name: %-4s, Score: %.2f", syndrome.getKey(), syndrome.getValue()));
 
-        for (Map.Entry<String, Double> syndrome : result_list.entrySet()) {
-            System.out.println(
-                    String.format("Score: %.5f, Syndrome_Name: %-15s", syndrome.getValue(), syndrome.getKey()));
-            resultTextView.setText(syndrome.getKey() + syndrome.getValue());
-            String random;
-        }
+			// 將字串存入陣列
+			differentiator_output[i] = output.toString();
+			i++;
+		}
+		for (i = 0; i < differentiator_output.length; i++) {
+			resultTextView.setText(differentiator_output[i]);
+		}
         ///////////////////////////////////////////////////////////////////////
 
         Button button = findViewById(R.id.seebutton);
