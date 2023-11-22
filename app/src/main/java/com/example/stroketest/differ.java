@@ -48,9 +48,8 @@ public class differ extends AppCompatActivity {
 
         String storke_Parameter_Data_path= getFilesDir() + "/stroke_differentiator_parameter.json";
         String stroke_Syndrome_Data_path= getFilesDir() + "/stroke_syndormes_symptoms_mapping.json";
-
-
         stroke_differentiator = new differentiator(stroke_Syndrome_Data_path,storke_Parameter_Data_path);
+
         if(stroke_differentiator != null){
             resultTextView.setText("1");
             result_list = stroke_differentiator.Differentiation_syndrome(symptomSet, 0.1);
@@ -59,7 +58,7 @@ public class differ extends AppCompatActivity {
         for (Map.Entry<String, Double> syndrome : result_list.entrySet()) {
             System.out.println(
                     String.format("Score: %.5f, Syndrome_Name: %-15s", syndrome.getValue(), syndrome.getKey()));
-            resultTextView.setText(syndrome.getKey());
+            resultTextView.setText(syndrome.getKey() + syndrome.getValue());
         }
         ///////////////////////////////////////////////////////////////////////
 
