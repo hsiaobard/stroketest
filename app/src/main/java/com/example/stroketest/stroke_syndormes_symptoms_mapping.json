@@ -1,0 +1,137 @@
+{
+  "1": {
+    "name": "肝陽暴亢",
+    "Chief_Complaint":"",
+        
+      "Primary_Group_1": [148],
+      "Primary_Group_2": [202,299,325,686,619],
+      "Primary_Group_3": [826,831,848,1024,1170],
+      "Primary_Group_4": [992],
+      "Primary_Group_5": [12,32,54,68,70,348,618,144],
+      "Secondary_Group_1": [],
+      "Secondary_Group_2": [],
+      "Secondary_Group_3": [],
+      "Secondary_Group_4": [],
+      "Secondary_Group_5": []
+  },
+  "2": {
+    "name": "風痰阻絡",
+    "Chief_Complaint":"",
+        
+      "Primary_Group_1": [348],
+      "Primary_Group_2": [202,619,1274],
+      "Primary_Group_3": [823,826,1024,1170],
+      "Primary_Group_4": [799,806,809],
+      "Primary_Group_5": [68,569],
+      "Secondary_Group_1": [],
+      "Secondary_Group_2": [],
+      "Secondary_Group_3": [],
+      "Secondary_Group_4": [],
+      "Secondary_Group_5": []
+  },
+  "3": {
+    "name": "痰熱腑實",
+    "Chief_Complaint":"",
+        
+      "Primary_Group_1": [511],
+      "Primary_Group_2": [202,425],
+      "Primary_Group_3": [826,827,832,1011,1024,1042,1170],
+      "Primary_Group_4": [799,806,992],
+      "Primary_Group_5": [32,54,68,81,144,161,325],
+      "Secondary_Group_1": [],
+      "Secondary_Group_2": [],
+      "Secondary_Group_3": [],
+      "Secondary_Group_4": [],
+      "Secondary_Group_5": []
+  },
+  "4": {
+    "name": "氣虛血瘀",
+    "Chief_Complaint":"",
+        
+      "Primary_Group_1": [386,63],
+      "Primary_Group_2": [202],
+      "Primary_Group_3": [823,832,838,1170],
+      "Primary_Group_4": [798,801,804,807],
+      "Primary_Group_5": [323,563,567,890],
+      "Secondary_Group_1": [],
+      "Secondary_Group_2": [],
+      "Secondary_Group_3": [],
+      "Secondary_Group_4": [],
+      "Secondary_Group_5": []
+  },
+  "5": {
+    "name": "陰虛風動",
+    "Chief_Complaint":"",
+    
+      "Primary_Group_1": [272],
+      "Primary_Group_2": [1274,450,348,619,558,975],
+      "Primary_Group_3": [827,1016,824,1024],
+      "Primary_Group_4": [798,799,800],
+      "Primary_Group_5": [135,144],
+      "Secondary_Group_1": [],
+      "Secondary_Group_2": [],
+      "Secondary_Group_3": [],
+      "Secondary_Group_4": [],
+      "Secondary_Group_5": []
+  },
+  "6": {
+    "name": "風火蔽竅",
+    "Chief_Complaint":"",
+    
+      "Primary_Group_1": [558],
+      "Primary_Group_2": [320,569,80,356,557],
+      "Primary_Group_3": [848,827,826,831,1011],
+      "Primary_Group_4": [800,799,809],
+      "Primary_Group_5": [135,325,618],
+      "Secondary_Group_1": [],
+      "Secondary_Group_2": [],
+      "Secondary_Group_3": [],
+      "Secondary_Group_4": [],
+      "Secondary_Group_5": []
+  },
+  "7": {
+    "name": "痰火閉竅",
+    "Chief_Complaint":"",
+    
+      "Primary_Group_1": [144,130],
+      "Primary_Group_2": [425,277,434,160],
+      "Primary_Group_3": [826,825,832],
+      "Primary_Group_4": [806,800,811],
+      "Primary_Group_5": [135,569,1008,32,54],
+      "Secondary_Group_1": [],
+      "Secondary_Group_2": [],
+      "Secondary_Group_3": [],
+      "Secondary_Group_4": [],
+      "Secondary_Group_5": []
+  },
+  "8": {
+    "name": "痰濕蒙竅",
+      "Chief_Complaint":"",
+    
+      "Primary_Group_1": [563],
+      "Primary_Group_2": [327,330,425],
+      "Primary_Group_3": [829,823,832],
+      "Primary_Group_4": [799,809,806],
+      "Primary_Group_5": [135,441,202,402,785],
+      "Secondary_Group_1": [],
+      "Secondary_Group_2": [],
+      "Secondary_Group_3": [],
+      "Secondary_Group_4": [],
+      "Secondary_Group_5": []
+  },
+  "9": {
+  	"name": "元氣衰敗",
+      "Chief_Complaint":"",
+    
+      "Primary_Group_1": [277],
+      "Primary_Group_2": [5,279,785],
+      "Primary_Group_3": [842,1042,838,823,832],
+      "Primary_Group_4": [810,813,798],
+      "Primary_Group_5": [31,135,323,365,432,563,621],
+      "Secondary_Group_1": [],
+      "Secondary_Group_2": [],
+      "Secondary_Group_3": [],
+      "Secondary_Group_4": [],
+      "Secondary_Group_5": []
+  }
+}

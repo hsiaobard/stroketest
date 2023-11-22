@@ -13,10 +13,7 @@
         android:theme="@style/Theme.Stroketest"
         tools:targetApi="31">
         <activity
-            android:name=".differentiator"
-            android:exported="false" />
-        <activity
-            android:name=".differentiatorActivity"
+            android:name=".differ"
             android:exported="false" />
         <activity
             android:name=".resultActivity"
@@ -30,6 +27,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
