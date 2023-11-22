@@ -59,6 +59,7 @@ public class differ extends AppCompatActivity {
             System.out.println(
                     String.format("Score: %.5f, Syndrome_Name: %-15s", syndrome.getValue(), syndrome.getKey()));
             resultTextView.setText(syndrome.getKey() + syndrome.getValue());
+            String random;
         }
         ///////////////////////////////////////////////////////////////////////
 
