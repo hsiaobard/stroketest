@@ -55,7 +55,7 @@ public class differ extends AppCompatActivity {
             result_list = stroke_differentiator.Differentiation_syndrome(symptomSet, 0.1);
         }
         
-        String[] differentiator_output = new String[8];
+        String[] differentiator_output = new String[9];
         int i=0;
 		for (Map.Entry<String, Double> syndrome : result_list.entrySet()) {
 			// 使用 StringBuilder 將 score 和 syndrome name 組合成一個字串
@@ -75,7 +75,7 @@ public class differ extends AppCompatActivity {
 
 
 		// 將合併後的字串轉換為 String 物件
-		Text = output.toString();
+		String Text = output.toString();
 
 		resultTextView.setText(Text); // Syndrome_Name: A, Score: 0.95, Syndrome_Name: B, Score: 0.85, ...
         ///////////////////////////////////////////////////////////////////////
