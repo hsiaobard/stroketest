@@ -165,7 +165,7 @@
                 android:backgroundTint="@{data.other890 ? @color/ToggleButtonON : @color/ToggleButtonOFF}"
                 android:minWidth="48dip"
                 android:minHeight="48dip"
-                android:onCheckedChanged="@{()->data.toggle(data.other890, @string/otherToggleButtonText890, @string/otherToggleButtonText890)}"
+                android:onCheckedChanged="@{()->data.toggle(data.other890, @string/otherToggleButtonText890, @string/otherToggleButton890)}"
                 android:padding="5dp"
                 android:text="@string/otherToggleButtonText890"
                 android:textOff="@string/otherToggleButton890"
