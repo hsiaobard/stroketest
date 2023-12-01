@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 
 import differentiator.differentiator;
@@ -78,6 +79,53 @@ public class differ extends AppCompatActivity {
 		String Text = output.toString();
 
 		resultTextView.setText(Text); // Syndrome_Name: A, Score: 0.95, Syndrome_Name: B, Score: 0.85, ...
+        ///////////////////////////////////////////////////////////////////////
+        //*****根據分數排序產生症候按鈕*********//
+        Button button1 = findViewById(R.id.button_1);
+        Button button2 = findViewById(R.id.button_2);
+        Button button3 = findViewById(R.id.button_3);
+
+
+        // 取得LinkedHashMap的前三個元素
+        List<Map.Entry<String, Double>> top3 = new ArrayList<>();
+
+        for (Map.Entry<String, Double> entry : result_list.entrySet()) {
+            top3.add(entry);
+            if (top3.size() == 3) {
+                break;
+            }
+        }
+        button1.setText(top3.get(0).getKey());
+        button2.setText(top3.get(1).getKey());
+        button3.setText(top3.get(2).getKey());
+
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(differ.this, resultActivity.class);
+                intent.putExtra("resultNumber", top3.get(0).getKey());
+                startActivity(intent);
+            }
+        });
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(differ.this, resultActivity.class);
+                intent.putExtra("resultNumber", top3.get(1).getKey());
+                startActivity(intent);
+            }
+        });
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(differ.this, resultActivity.class);
+                intent.putExtra("resultNumber", top3.get(2).getKey());
+                startActivity(intent);
+            }
+        });
+
+
+
         ///////////////////////////////////////////////////////////////////////
 
         Button button = findViewById(R.id.seebutton);
