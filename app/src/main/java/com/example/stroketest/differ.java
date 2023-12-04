@@ -1,10 +1,12 @@
 package com.example.stroketest;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -80,7 +82,9 @@ public class differ extends AppCompatActivity {
 
 		resultTextView.setText(Text); // Syndrome_Name: A, Score: 0.95, Syndrome_Name: B, Score: 0.85, ...
         ///////////////////////////////////////////////////////////////////////
-        //*****根據分數排序產生症候按鈕*********//
+        //////////////////////////////////////////
+        //*****根據分數排序產生前三個症候按鈕*********//
+        //////////////////////////////////////////
         Button button1 = findViewById(R.id.button_1);
         Button button2 = findViewById(R.id.button_2);
         Button button3 = findViewById(R.id.button_3);
@@ -95,10 +99,11 @@ public class differ extends AppCompatActivity {
                 break;
             }
         }
-        button1.setText(top3.get(0).getKey());
-        button2.setText(top3.get(1).getKey());
-        button3.setText(top3.get(2).getKey());
+        button1.setText(String.format("%-4s  分數: %.2f", top3.get(0).getKey(), top3.get(0).getValue()));
+        button2.setText(String.format("%-4s  分數: %.2f", top3.get(1).getKey(), top3.get(1).getValue()));
+        button3.setText(String.format("%-4s  分數: %.2f", top3.get(2).getKey(), top3.get(2).getValue()));
 
+        //跳轉至resultActivity，並傳遞症候名稱
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -123,6 +128,8 @@ public class differ extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        ///////////////////////////////////////////////////////////////////////
+        //little test incoming...
 
 
 

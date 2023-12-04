@@ -22,7 +22,7 @@
         android:id="@+id/SyndromesButton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/SyndromesButtonColor1"
+        android:background="@color/syn1"
         android:text="肝陽暴亢"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toTopOf="@+id/guideline3" />
@@ -31,8 +31,8 @@
         android:id="@+id/SyndromesButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:background="@color/SyndromesButtonColor1"
+        android:layout_marginTop="8dp"
+        android:background="@color/syn1"
         android:text="風痰阻絡"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toBottomOf="@+id/SyndromesButton1" />
@@ -41,8 +41,8 @@
         android:id="@+id/SyndromesButton3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:background="@color/SyndromesButtonColor1"
+        android:layout_marginTop="8dp"
+        android:background="@color/syn1"
         android:text="痰熱腑實"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toBottomOf="@+id/SyndromesButton2" />
@@ -51,63 +51,64 @@
         android:id="@+id/SyndromesButton4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:background="@color/SyndromesButtonColor1"
+        android:layout_marginStart="8dp"
+        android:background="@color/syn1"
         android:text="氣虛血瘀"
-        app:layout_constraintStart_toStartOf="@+id/guideline4"
-        app:layout_constraintTop_toBottomOf="@+id/SyndromesButton3" />
+        app:layout_constraintStart_toEndOf="@+id/SyndromesButton1"
+        app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
     <Button
         android:id="@+id/SyndromesButton5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:background="@color/SyndromesButtonColor1"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/syn1"
         android:text="陰虛風動"
-        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toEndOf="@+id/SyndromesButton2"
         app:layout_constraintTop_toBottomOf="@+id/SyndromesButton4" />
 
     <Button
         android:id="@+id/SyndromesButton6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:background="@color/SyndromesButtonColor2"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/syn2"
         android:text="風火蔽竅"
-        app:layout_constraintStart_toEndOf="@+id/SyndromesButton1"
-        app:layout_constraintTop_toTopOf="@+id/guideline3" />
+        app:layout_constraintStart_toEndOf="@+id/SyndromesButton3"
+        app:layout_constraintTop_toBottomOf="@+id/SyndromesButton5" />
 
     <Button
         android:id="@+id/SyndromesButton7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="5dp"
-        android:background="@color/SyndromesButtonColor2"
+        android:layout_marginStart="8dp"
+        android:background="@color/syn2"
         android:text=" 痰火閉竅"
-        app:layout_constraintStart_toEndOf="@+id/SyndromesButton2"
-        app:layout_constraintTop_toBottomOf="@+id/SyndromesButton6" />
+        app:layout_constraintStart_toEndOf="@+id/SyndromesButton4"
+        app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
     <Button
         android:id="@+id/SyndromesButton8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="5dp"
-        android:background="@color/SyndromesButtonColor2"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/syn2"
         android:text="痰濕蒙竅"
-        app:layout_constraintStart_toEndOf="@+id/SyndromesButton3"
+        app:layout_constraintStart_toEndOf="@+id/SyndromesButton5"
         app:layout_constraintTop_toBottomOf="@+id/SyndromesButton7" />
 
     <Button
         android:id="@+id/SyndromesButton9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="5dp"
-        android:background="@color/SyndromesButtonColor2"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/syn2"
         android:text="元氣衰敗"
-        app:layout_constraintStart_toEndOf="@+id/SyndromesButton4"
+        app:layout_constraintStart_toEndOf="@+id/SyndromesButton6"
         app:layout_constraintTop_toBottomOf="@+id/SyndromesButton8" />
 
     <androidx.constraintlayout.widget.Guideline
@@ -128,11 +129,12 @@
         android:id="@+id/resultScrollView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline6"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
-        app:layout_constraintTop_toBottomOf="@+id/SyndromesButton5"
+        app:layout_constraintTop_toBottomOf="@+id/SyndromesButton9"
         app:layout_constraintVertical_bias="0.0">
 
         <TextView
