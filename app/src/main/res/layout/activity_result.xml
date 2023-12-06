@@ -11,6 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.875"
@@ -22,6 +23,7 @@
         android:id="@+id/SyndromesButton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:background="@color/syn1"
         android:text="肝陽暴亢"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
@@ -52,6 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
         android:background="@color/syn1"
         android:text="氣虛血瘀"
         app:layout_constraintStart_toEndOf="@+id/SyndromesButton1"
@@ -84,6 +87,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
         android:background="@color/syn2"
         android:text=" 痰火閉竅"
         app:layout_constraintStart_toEndOf="@+id/SyndromesButton4"
@@ -208,4 +212,25 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.95485634" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="中經絡"
+        android:textColor="@color/syn1"
+        app:layout_constraintBottom_toTopOf="@+id/SyndromesButton1"
+        app:layout_constraintStart_toStartOf="@+id/guideline4" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:text="中臟腑"
+        android:textColor="@color/syn2"
+        app:layout_constraintBottom_toTopOf="@+id/SyndromesButton7"
+        app:layout_constraintStart_toEndOf="@+id/SyndromesButton4" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
