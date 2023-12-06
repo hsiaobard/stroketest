@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -48,6 +49,7 @@ public class differ extends AppCompatActivity {
         //String internalPath = null;
 
         //resultTextView.setText(internalPath);
+        //***********辯證部分************//
 
         String storke_Parameter_Data_path= getFilesDir() + "/stroke_differentiator_parameter.json";
         String stroke_Syndrome_Data_path= getFilesDir() + "/stroke_syndormes_symptoms_mapping.json";
@@ -81,6 +83,20 @@ public class differ extends AppCompatActivity {
 		String Text = output.toString();
 
 		resultTextView.setText(Text); // Syndrome_Name: A, Score: 0.95, Syndrome_Name: B, Score: 0.85, ...
+
+        //按下按鈕後可以查看全部的辯證結果
+
+        CheckBox checkBox = findViewById(R.id.checkBox);
+        checkBox.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(checkBox.isChecked())
+                    resultTextView.setVisibility(View.VISIBLE);
+                else
+                    resultTextView.setVisibility(View.INVISIBLE);
+            }
+        });
+
         ///////////////////////////////////////////////////////////////////////
         //////////////////////////////////////////
         //*****根據分數排序產生前三個症候按鈕*********//
