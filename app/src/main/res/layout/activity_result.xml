@@ -145,7 +145,7 @@
             android:id="@+id/selectedSyndrome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="請選擇症候"
+            android:text="請選擇證候"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
