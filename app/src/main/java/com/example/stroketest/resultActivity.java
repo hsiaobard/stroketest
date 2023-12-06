@@ -82,8 +82,8 @@ public class resultActivity extends AppCompatActivity {
                 medicinePrescription.setText("人參2-3錢、制附子3-5錢");
                 break;
             default:
-                acupuncturePrescription.setText("Error");
-                medicinePrescription.setText("Error");
+                acupuncturePrescription.setText("選擇症候以查看針灸處方");
+                medicinePrescription.setText("選擇症候以查看中藥處方");
         }
 
 
