@@ -16,11 +16,11 @@ public class Parameter {
 	String parameter = "{\n" +
 			"  \"sd_size\": 9,\n" +
 			"  \"g_size\": 5,\n" +
-			"  \"G1_weight\": 0.1,\n" +
-			"  \"G2_weight\": 0.25,\n" +
-			"  \"G3_weight\": 0.25,\n" +
+			"  \"G1_weight\": 0.3,\n" +
+			"  \"G2_weight\": 0.3,\n" +
+			"  \"G3_weight\": 0.1,\n" +
 			"  \"G4_weight\": 0.1,\n" +
-			"  \"G5_weight\": 0.3,\n" +
+			"  \"G5_weight\": 0.2,\n" +
 			"  \"primary_weight\": 1.0,\n" +
 			"  \"secondary_weight\": 0.0\n" +
 			"}";
