@@ -1,4 +1,7 @@
 # stroketest
+
+!!!最終版本在final branch!!!
+
 version1
 中風中醫行動通 APP
 目前功能:
