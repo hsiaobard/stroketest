@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 binding.resultText.setText("選取的症狀編號集合：" + myViewModel.selectedSymptoms.getValue().toString());
                 binding.selectedSymptomText.setText("選取的症狀：" + myViewModel.selectedSymptomsText.getValue().toString());
+
+                FileHelper.saveToFile(MainActivity.this, myViewModel.selectedSymptomsText.getValue());
             }
         });
 
